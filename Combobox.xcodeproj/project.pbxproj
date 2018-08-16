@@ -13,6 +13,7 @@
 		E227651A212412C100082D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2276518212412C100082D90 /* Main.storyboard */; };
 		E227651D212412C100082D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E227651C212412C100082D90 /* main.m */; };
 		E2288525212418F4002230AD /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2288524212418F4002230AD /* Config.plist */; };
+		E228852821243B26002230AD /* ComboBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E228852721243B26002230AD /* ComboBoxCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		E227651C212412C100082D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E227651E212412C100082D90 /* Combobox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Combobox.entitlements; sourceTree = "<group>"; };
 		E2288524212418F4002230AD /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		E228852621243B26002230AD /* ComboBoxCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComboBoxCell.h; sourceTree = "<group>"; };
+		E228852721243B26002230AD /* ComboBoxCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComboBoxCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				E2276511212412BF00082D90 /* AppDelegate.m */,
 				E2276513212412BF00082D90 /* ViewController.h */,
 				E2276514212412BF00082D90 /* ViewController.m */,
+				E228852621243B26002230AD /* ComboBoxCell.h */,
+				E228852721243B26002230AD /* ComboBoxCell.m */,
 				E2276516212412C100082D90 /* Assets.xcassets */,
 				E2276518212412C100082D90 /* Main.storyboard */,
 				E227651B212412C100082D90 /* Info.plist */,
@@ -150,6 +155,7 @@
 			files = (
 				E2276515212412BF00082D90 /* ViewController.m in Sources */,
 				E227651D212412C100082D90 /* main.m in Sources */,
+				E228852821243B26002230AD /* ComboBoxCell.m in Sources */,
 				E2276512212412BF00082D90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

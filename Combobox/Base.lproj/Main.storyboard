@@ -709,22 +709,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMU-uU-UMa">
-                                <rect key="frame" x="154" y="121" width="175" height="26"/>
+                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gmx-ZJ-LsZ">
+                                <rect key="frame" x="177" y="165" width="150" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="ywf-38-cOw">
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesDataSource="YES" numberOfVisibleItems="5" id="f0h-LD-iZz" customClass="ComboBoxCell">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </comboBoxCell>
-                                <connections>
-                                    <action selector="choose:" target="XfG-lQ-9wD" id="8sc-0P-umT"/>
-                                </connections>
                             </comboBox>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="demoCB" destination="HMU-uU-UMa" id="MNy-YN-aGU"/>
+                        <outlet property="demoCB" destination="Gmx-ZJ-LsZ" id="OyP-NF-g6S"/>
+                        <outlet property="demoCBCell" destination="f0h-LD-iZz" id="mzE-1z-Fxj"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>

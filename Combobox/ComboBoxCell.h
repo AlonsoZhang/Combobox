@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ComboBoxCell.h
 //  Combobox
 //
 //  Created by Alonso on 2018/8/15.
@@ -7,11 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "ComboBoxCell.h"
-@interface ViewController : NSViewController
 
+@interface ComboBoxCell : NSComboBoxCell
 
-
+- (void)popUpList;
+- (void)closePopUpWindow;
+- (BOOL)isPopUpWindowVisible;
 
 @end
-
